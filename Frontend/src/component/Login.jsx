@@ -28,7 +28,7 @@ function Login() {
     console.log(data);
   
     try {
-      const response = await axios.post("http://localhost:3000/api/login", data);
+      const response = await axios.post("https://task2-h38y.onrender.com/api/login", data);
       const token = response.data.token;
   
       localStorage.setItem("token", token);

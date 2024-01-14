@@ -21,7 +21,7 @@ function Signup() {
   });
 
   const getOtp = async()=>{
-    const o = await axios.post('http://localhost:3000/api/otp', { email: data.email });
+    const o = await axios.post('https://task2-h38y.onrender.com/api/otp', { email: data.email });
     console.log(o)
   }
 
@@ -30,7 +30,7 @@ function Signup() {
     console.log(data);
 
     try {
-      const response = await axios.post('http://localhost:3000/api/signup', data);
+      const response = await axios.post('https://task2-h38y.onrender.com/api/signup', data);
 
       
 
