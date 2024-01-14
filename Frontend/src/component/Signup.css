@@ -1,0 +1,76 @@
+/* Signup.css */
+
+.signup-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(45deg, #667eea, #764ba2); /* Set your gradient background colors */
+  }
+  
+  .signup-form {
+    background-color: #fefcfc; /* Set form background color */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 2rem;
+    border-radius: 8px;
+    width: 700px;
+    animation: fadeInUp 0.5s ease; /* Add a fadeInUp animation */
+  }
+  
+  @keyframes fadeInUp {
+    from {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  .form-group {
+    margin-bottom: 1.5rem;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 0.5rem;
+    font-weight: bold;
+    color: #4b5563;
+  }
+  
+  input {
+    width: 80%;
+    padding: 5rem;
+    border: 1px solid #d1d5db;
+    border-radius: 4px;
+    transition: all;
+  }
+  input:hover{
+    background-color: #e8e8e8;
+    scale: 1.1;
+  }
+  
+  input:focus {
+    outline: none;
+    border-color: #667eea;
+  }
+  
+  button {
+    background-color: #7a6f6f;
+    
+    padding: 0.75rem 1rem;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #5a67d8;
+  }
+  

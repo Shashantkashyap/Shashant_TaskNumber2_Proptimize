@@ -1,0 +1,41 @@
+.navbar-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    background-color: #3498db;
+    color: #fff;
+  }
+  
+  .logo-container h2 {
+    margin: 0;
+  }
+  
+  .button-container {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .nav-link {
+    text-decoration: none;
+  }
+  
+  .login-button,
+  .signup-button {
+    padding: 10px 15px;
+    font-size: 14px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .login-button {
+    background-color: #2ecc71;
+    color: #fff;
+  }
+  
+  .signup-button {
+    background-color: #e74c3c;
+    color: #fff;
+  }
+  
