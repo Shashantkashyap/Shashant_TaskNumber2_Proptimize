@@ -4,8 +4,7 @@ import './Navbar.css';
 
 function Navbar() {
 
-  const userData = JSON.parse(localStorage.getItem("user"));
-  const img = userData.image
+  
 
   const handleLogout = () => {
     localStorage.removeItem("token");
@@ -38,9 +37,7 @@ function Navbar() {
               <button className="signup-button hover:rounded-md border hover:bg-red-600 ">View Profile</button>
             </Link>
 
-            <img src={img} alt="Image" className=' w-[50px] h-[50px] rounded-full border shadow-md hover:scale-[1.1]' />
-
-            <img src="" alt="" />
+           
           </div>
         )}
       </div>
