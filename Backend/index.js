@@ -9,7 +9,7 @@ const cors = require("cors");
 dbConnect();
 app.use(express.json());
 /*app.use(cors({
-    origin:"https://t2-ui.onrender.com",
+    origin:"http://localhost:8000",
     credential:true
 }))
 */
