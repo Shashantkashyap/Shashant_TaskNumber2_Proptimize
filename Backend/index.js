@@ -8,11 +8,11 @@ const cors = require("cors");
 
 dbConnect();
 app.use(express.json());
-app.use(cors({
+/*app.use(cors({
     origin:"https://t2-ui.onrender.com",
     credential:true
 }))
-
+*/
 app.get("/",(req,res)=>{
     res.send("this is home page")
 })
