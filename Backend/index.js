@@ -10,7 +10,7 @@ dbConnect();
 app.use(express.json());
 app.use(cors({
     origin:"https://t2-ui.onrender.com",
-    Credential:true
+    credential:true
 }))
 
 app.get("/",(req,res)=>{
